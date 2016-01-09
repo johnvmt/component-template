@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<!-- Polyfill -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.7/webcomponents.min.js"></script>
+	<link rel="import" href="bullet-points.html">
+
+</head>
+<body>
+	<div style="width: 50%; height: 50%; display: block; background-color: #00ff00">
+		<bullet-points title="My title" subtitle="My subtitle">
+			<bullet-point>Text for bullet 1</bullet-point>
+			<bullet-point>Text for bullet 2</bullet-point>
+			<bullet-point>Text for bullet 3</bullet-point>
+		</bullet-points>
+	</div>
+
+	<script type="text/javascript">
+		var bps = document.querySelector("bullet-points");
+	</script>
+</body>
+</html>

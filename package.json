@@ -1,0 +1,21 @@
+{
+  "name": "my-component",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "author": {
+    "name": "My Name",
+    "email": "my@email.com"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://my-git-repository"
+  },
+  "scripts": {
+    "postinstall": "bower install"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "my-component",
+  "description": "",
+  "authors": [
+    { "name": "My Name", "email": "my@email.com" }
+  ],
+  "license": "MIT",
+  "main": "my-component.html",
+  "dependencies": {
+    "eventEmitter": "4.3.x"
+  },
+  "devDependencies": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://my-git-repository"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
